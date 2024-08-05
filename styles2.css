@@ -32,30 +32,30 @@ body {
 
 /* HEADER */
 header {
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    text-align: center;
-    font-size: 2vw;
-    text-shadow: 4px 4px 4px #000000dc; 
-    max-height: 20vw;
-    overflow:  hidden;  
-    line-height: 0.4;
-    background-color: #18203c; /* Color de fondo */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  header img {
-    margin-right: 30px;
-    width: 20vw;
-    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
-    mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  font-size: 2.46vw;
+  text-shadow: 4px 4px 4px #000000dc; 
+  max-height: 21vw;
+  overflow:  hidden;  
+  line-height: 0.4;
+  background-color: #18203c; /* Color de fondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-  
-  header .text {
-    text-align: left;
-  }
+
+header img {
+  margin-right: 30px;
+  width: 24vw;
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
+  mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
+}
+
+header .text {
+  text-align: left;
+}
   
 
   /* FOOTER */
