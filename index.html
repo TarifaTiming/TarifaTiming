@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TarifaTiming</title>
+    <meta name="theme-color" content="#425c29">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <link rel="icon" type="image/jpg" href="images/logoFinal.png">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img alt="logo" title="TarifaTiming" src="images/logoFinal.png">
+        </a>
+        <div class="text">
+            <h1>TarifaTiming</h1>
+            <p>Clasificación de los mejores tiempos</p>
+        </div>
+    </header>
+
+<!--     <form id="timeForm" class="hidden">
+        <label for="time">Tiempo:</label>
+        <input type="text" id="time" name="time" required>
+
+        <label for="piloto">Piloto:</label>
+        <input type="text" id="piloto" name="piloto" required>
+
+        <label for="vehiculo">Vehiculo:</label>
+        <input type="text" id="vehiculo" name="vehiculo" required>
+
+        <label for="coches">Coches adelantados:</label>
+        <input type="text" id="coches" name="coches" required>
+
+        <label for="observaciones">Observaciones destacables:</label>
+        <input type="text" id="observaciones" name="observaciones" required>
+
+        <button type="submit">Añadir Tiempo</button>
+    </form> -->
+
+
+
+
+    <table id="timesTable">
+        <thead>
+            <tr>
+                <th>Tiempo</th>
+                <th>Piloto</th>
+                <th>Vehiculo</th>
+                <th>Fecha - hora</th>
+                <th>Coches adelantados</th>
+                <th>Observaciones destacables</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="images/oro.avif" alt="oro" width="30">7:57.950</td>
+                <td>Ña</td>
+                <td><a href="https://www.km77.com/coches/hyundai/accent/2006/3-puertas/gl/accent-3p-15-vgt-gl2/datos">
+                    Hyundai Accent 1.5 CRDI (2007) 
+                    <img src="images/accent2.jpeg" alt="Hyundai Accent" width="80"></a>
+                </td>
+                <td>03-08-24 3:32</td>
+                <td>4</td>
+                <td>Totalidad de adelantamientos en doble línea
+                    continua, en el tercero invasión de curva ciega y
+                    posible colisión frontal
+                </td>
+            </tr>
+            <tr>
+                <td>10:02.345</td>
+                <td>Juan Pérez</td>
+                <td>El astra del pitu</td>
+                <td>2024-08-05 10:30</td>
+                <td>2</td>
+                <td>Gran rendimiento en las curvas</td>
+            </tr>
+            <tr>
+                <td>12:03.789</td>
+                <td>María López</td>
+                <td>Mercedes AMG One</td>
+                <td>2024-08-05 11:00</td>
+                <td>3</td>
+                <td>Adelantamientos impresionantes</td>
+            </tr>
+            <tr>
+                <td>14:01.234</td>
+                <td>Carlos Ruiz</td>
+                <td>Ford Fiesta</td>
+                <td>2024-08-05 09:45</td>
+                <td>1</td>
+                <td>Salida rápida</td>
+            </tr>
+            <tr>
+                <td>16:04.567</td>
+                <td>Ana Martín</td>
+                <td>C15</td>
+                <td>2024-08-05 12:15</td>
+                <td>4</td>
+                <td>Control excepcional</td>
+            </tr>        
+        </tbody>
+    </table>
+
+    <div id="aniadir">
+        <h2>¿Quieres añadir tu tiempo a la tabla?</h2>
+        <h3>Mandanos un correo a esta direccion: <a href="https://mail.google.com">trf.tmg.1993@gmail.com</a></h3>
+        <h3>En él, tienes que indicar el tiempo, un nombre o nick propio (nada de nombres reales), vehiculo, fecha y hora, coches adelantados, y una pequeña
+             descripción u observación. Además puedes mandar fotos del vehiculo, cronometro, etc. La tabla se actualizará lo antes posible según los 
+             administradores y su disponibilidad (aproximandamente menos de 24h).</h3>
+        <div class="disclaimer">
+            <p>
+                Importante:
+            </p>
+            <ul>
+                <li>La información que se mande debe ser minimamente contrastada, ya sea por fotos o algun otro medio. No se publicará
+                     nada de información sensible, ni nada que pueda comprometer o identificar directamente a los usuarios. Se tratarán de anonimos a los usuarios.</li>
+                <li>Las imágenes subidas deben ser de su propiedad.</li>
+                <li>Los administradores del sitio se reservan el derecho de revisar, modificar o eliminar cualquier entrada que no
+                    cumpla con estas condiciones o con nuestras políticas. Esto es mero entretenimiento, no os paseis ni mandeis "locuras", ya me entendeis.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>&copy; 2024 TarifaTiming S.L. &DoubleVerticalBar; Todos los derechos reservados.</p>
+        </div>
+        <div id="contacto" class="contact-info">
+            <p>Contacto: trf.tmg.1993@gmail.com</p>
+            <p><a href="infoLegal.html">Información Legal</a></p>
+        </div>
+      </footer>
+</body>
+
+</html>
