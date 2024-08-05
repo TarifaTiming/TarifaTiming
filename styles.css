@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff2e5;
     color: #333;
 }
 
@@ -12,9 +12,9 @@ header {
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.46vw;
     text-shadow: 4px 4px 4px #000000dc; 
-    max-height: 20vw;
+    max-height: 21vw;
     overflow:  hidden;  
     line-height: 0.4;
     background-color: #18203c; /* Color de fondo */
@@ -25,7 +25,7 @@ header {
   
   header img {
     margin-right: 30px;
-    width: 20vw;
+    width: 24vw;
     -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
     mask-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%);
 }
@@ -35,15 +35,6 @@ header {
   }
   
 
-#formu{
-    margin: 10px auto;
-    padding: 10px;
-    background-color: #f38e2d;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-}
 
 /* Estilos del formulario */
 #aniadir{
@@ -52,30 +43,32 @@ header {
     margin: 40px 70px 50px 70px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
 }
 
 
 
-
-
-
+/* Contenedor para la tabla con desplazamiento automático */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
 
 /* Estilos de la tabla */
 table {
-    width: 90%;
-    margin: 20px auto;
+    margin: 20px 50px;
     border-collapse: collapse;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
 }
 
 table thead {
     background-color: #2d3c70;
     color: white;
     text-shadow: 1px 1px 2px #000000dc;
+    border-radius: 10px;
+
 }
 
 table th, table td {
@@ -117,3 +110,28 @@ footer {
   .contact-info strong {
     font-weight: bold; /* Destacar en negrita */
   }
+
+
+  /* Respuesta en móvil */
+@media (max-width: 708px) {
+    body {
+        font-size: 2.5vw;
+    }
+
+    table {
+        margin: 13px;
+    }
+
+    #aniadir{
+        padding: 15px;
+        margin: 4vw 7vw 5vw 7vw;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table th, table td {
+        padding: 5px;
+        font-size: 2.2vw;
+    }
+}
